@@ -1,0 +1,320 @@
+
+
+@font-face {
+    font-family: "interstateBold";
+    src: url('../fonts/Interstate-BoldCompressed.woff');
+}
+
+@font-face {
+    font-family: "interstateLight";
+    src: url('../fonts/InterstateLightCompressed.woff');
+}
+
+* {
+    margin: 0;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+header {
+    background-color: #E86618;
+    width: 100%;
+    height: 122px;
+    display: block;
+}
+
+header p {
+    color: white;
+    font-family: interstateBold;
+    font-size: 36pt;
+    padding: 40px;
+}
+
+.catalogo .produto img {
+    float: left;
+    width: 50%;
+    height: 300px;
+    display: block;
+}
+
+.catalogo h1 {
+    font-family: interstateBold;
+    color: #E86618;
+    margin-left: 50px;
+    margin-top: 20%;
+}
+
+.descricao1 {
+    background-color: #E7D7C8;
+    float: right;
+    width: 50%;
+    height: 300px;
+    display: block;
+}
+
+.descricao1 h2 {
+    font-family: interstateLight;
+    font-weight: lighter;
+    color: #4D372A;
+    margin-left: 50px;
+}
+
+.descricao2 {
+    background-color: #4D372A;
+    float: right;
+    width: 50%;
+    height: 300px;
+    display: block;
+}
+
+.descricao2 h2 {
+    font-family: interstateLight;
+    font-weight: lighter;
+    color: white;
+    margin-left: 50px;
+}
+
+.comprar {
+    background-color: #E86618;
+    color: white;
+    font-family: interstateBold;
+    font-size: 20pt;
+    border: none;
+    height: 40px;
+    width: 150px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+.pre_footer {
+    background-color: #4F362C;
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    height: 200px;
+}
+
+.pre_footer h1 {
+    font-family: interstateBold;
+    color: #E86618;
+    margin-left: 50px;
+    margin-top: 5%;
+    font-size: 28pt;
+}
+
+.pre_footer h2 {
+    font-family: interstateBold;
+    font-weight: lighter;
+    color: #E7D7C8;
+    margin-left: 50px;
+    font-size: 36pt;
+}
+
+.pre_footer img {
+    position: relative;
+    float: right;
+    margin-top: -140px;
+    height: 200px;
+}
+
+footer {
+    background-color: #E9D6C8;
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    height: 110px;
+}
+
+footer .logo_footer {
+    margin-left: 40px;
+    height: 100px;
+}
+
+footer .social {
+    position: relative;
+    float: right;
+    margin-top: 30px;
+    margin-right: 50px;
+}
+
+footer .social img {
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+}
+
+
+/* RESPONSIVIDADE */
+
+@media screen and (min-width:320px) {
+    header {
+        height: 80px;
+    }
+    header p {
+        font-size: 20pt;
+        padding: 10px;
+    }
+    .descricao1 {
+        height: 250px;
+    }
+    .descricao2 {
+        height: 250px;
+    }
+    .catalogo .produto img {
+        height: 250px;
+    }
+    .comprar {
+        font-size: 13pt;
+        height: 40px;
+        width: 100px;
+        margin-left: 20px;
+    }
+    .catalogo h1 {
+        margin-left: 25px;
+    }
+    .catalogo h2 {
+        margin-left: 25px;
+    }
+    .pre_footer h1 {
+        font-family: interstateBold;
+        color: #E86618;
+        margin-left: 20px;
+        margin-top: 5%;
+        font-size: 28pt;
+    }
+    .pre_footer h2 {
+        margin-left: 20px;
+        font-size: 20pt;
+        width: 150px;
+    }
+    .pre_footer img {
+        margin-top: -100px;
+        margin-right: -10px;
+        height: 150px;
+    }
+    footer .logo_footer {
+        margin-left: -5px;
+    }
+    footer .social img {
+        margin-right: -30px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width: 1023px) {
+    header p {
+        font-size: 30pt;
+        padding: 10px;
+    }
+    .descricao1 {
+        height: 300px;
+    }
+    .descricao2 {
+        height: 300px;
+    }
+    .catalogo .produto img {
+        height: 300px;
+    }
+    .comprar {
+        font-size: 20pt;
+        height: 50px;
+        width: 200px;
+        margin-left: 50px;
+    }
+    .catalogo h1 {
+        margin-left: 50px;
+    }
+    .catalogo h2 {
+        margin-left: 50px;
+    }
+    .pre_footer h1 {
+        font-family: interstateBold;
+        color: #E86618;
+        margin-left: 40px;
+        margin-top: 5%;
+        font-size: 30pt;
+    }
+    .pre_footer h2 {
+        margin-left: 40px;
+        font-size: 30pt;
+        width: 400px;
+    }
+    .pre_footer img {
+        margin-top: -140px;
+        margin-right: -10px;
+        height: 170px;
+    }
+    footer .logo_footer {
+        margin-left: 20px;
+    }
+    footer .social img {
+        margin-right: -25px;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    header {
+        height: 100px;
+    }
+    header p {
+        font-size: 36pt;
+        padding: 10px;
+    }
+    .descricao1 {
+        height: 400px;
+    }
+    .descricao2 {
+        height: 400px;
+    }
+    .catalogo .produto img {
+        height: 400px;
+    }
+    .comprar {
+        font-size: 26pt;
+        height: 70px;
+        width: 200px;
+        margin-left: 60px;
+    }
+    .catalogo h1 {
+        margin-left: 60px;
+        font-size: 36pt;
+    }
+    .catalogo h2 {
+        margin-left: 60px;
+        font-size: 30pt;
+    }
+    .pre_footer {
+        height: 250px;
+    }
+    .pre_footer h1 {
+        font-family: interstateBold;
+        font-size: 36pt;
+        margin-left: 40px;
+    }
+    .pre_footer h2 {
+        margin-left: 40px;
+        font-size: 30pt;
+        width: 400px;
+    }
+    .pre_footer img {
+        margin-top: -145px;
+        margin-right: -5px;
+        height: 200px;
+    }
+    footer {
+        height: 150px;
+    }
+    footer .logo_footer {
+        margin-left: 20px;
+        width: 200px;
+        height: 150px;
+    }
+    footer .social img {
+        margin-right: -25px;
+        width: 150px;
+        height: 100px;
+    }
+}
